@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		901B327E1EC4968F00C48FA0 /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 901B327D1EC4968F00C48FA0 /* data.plist */; };
 		BB7767871EC2F7DB0098F326 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7767861EC2F7DB0098F326 /* AppDelegate.swift */; };
 		BB7767891EC2F7DB0098F326 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7767881EC2F7DB0098F326 /* ViewController.swift */; };
 		BB77678C1EC2F7DB0098F326 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB77678A1EC2F7DB0098F326 /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		BB7767911EC2F7DB0098F326 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB77678F1EC2F7DB0098F326 /* LaunchScreen.storyboard */; };
 		BB77679C1EC2F7DB0098F326 /* SwiftPropertyListDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB77679B1EC2F7DB0098F326 /* SwiftPropertyListDemoTests.swift */; };
 		BB7767A71EC2F7DB0098F326 /* SwiftPropertyListDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7767A61EC2F7DB0098F326 /* SwiftPropertyListDemoUITests.swift */; };
+		BB7767B71EC2F90E0098F326 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7767B61EC2F90E0098F326 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		901B327D1EC4968F00C48FA0 /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
 		BB7767831EC2F7DB0098F326 /* SwiftPropertyListDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftPropertyListDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB7767861EC2F7DB0098F326 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB7767881EC2F7DB0098F326 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		BB7767A21EC2F7DB0098F326 /* SwiftPropertyListDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftPropertyListDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB7767A61EC2F7DB0098F326 /* SwiftPropertyListDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPropertyListDemoUITests.swift; sourceTree = "<group>"; };
 		BB7767A81EC2F7DB0098F326 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB7767B61EC2F90E0098F326 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 		BB77677A1EC2F7DB0098F326 = {
 			isa = PBXGroup;
 			children = (
+				901B327D1EC4968F00C48FA0 /* data.plist */,
 				BB7767851EC2F7DB0098F326 /* SwiftPropertyListDemo */,
 				BB77679A1EC2F7DB0098F326 /* SwiftPropertyListDemoTests */,
 				BB7767A51EC2F7DB0098F326 /* SwiftPropertyListDemoUITests */,
@@ -100,6 +105,7 @@
 				BB7767861EC2F7DB0098F326 /* AppDelegate.swift */,
 				BB7767881EC2F7DB0098F326 /* ViewController.swift */,
 				BB77678A1EC2F7DB0098F326 /* Main.storyboard */,
+				BB7767B61EC2F90E0098F326 /* TableViewController.swift */,
 				BB77678D1EC2F7DB0098F326 /* Assets.xcassets */,
 				BB77678F1EC2F7DB0098F326 /* LaunchScreen.storyboard */,
 				BB7767921EC2F7DB0098F326 /* Info.plist */,
@@ -234,6 +240,7 @@
 			files = (
 				BB7767911EC2F7DB0098F326 /* LaunchScreen.storyboard in Resources */,
 				BB77678E1EC2F7DB0098F326 /* Assets.xcassets in Resources */,
+				901B327E1EC4968F00C48FA0 /* data.plist in Resources */,
 				BB77678C1EC2F7DB0098F326 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB7767891EC2F7DB0098F326 /* ViewController.swift in Sources */,
+				BB7767B71EC2F90E0098F326 /* TableViewController.swift in Sources */,
 				BB7767871EC2F7DB0098F326 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,6 +515,7 @@
 				BB7767AD1EC2F7DB0098F326 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BB7767AE1EC2F7DB0098F326 /* Build configuration list for PBXNativeTarget "SwiftPropertyListDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +524,7 @@
 				BB7767B01EC2F7DB0098F326 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BB7767B11EC2F7DB0098F326 /* Build configuration list for PBXNativeTarget "SwiftPropertyListDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +533,7 @@
 				BB7767B31EC2F7DB0098F326 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
